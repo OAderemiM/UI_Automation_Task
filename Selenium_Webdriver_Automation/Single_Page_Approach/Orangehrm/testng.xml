@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UI_Automation_TAsk/UI_Automation_Task/Selenium_Webdriver_Automation/Single_Page_Approach/Orangehrm">
+        <classes>
+            <class name="Login.LoginTests">
+                <methods>
+            <include name="testVerifyCompanyLogo"/>
+            <include name="testVerifyForgotPassword"/>
+                <include name="testVerifyLoginPanel"/>
+            <include name="testVerifyPageTitle"/></methods>
+            </class><class name="setup.setupTest">
+            <methods><include name="testSetUp"/></methods></class></classes></test></suite>
