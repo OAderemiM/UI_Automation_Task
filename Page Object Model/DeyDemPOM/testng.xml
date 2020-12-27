@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UI_Automation_TAsk/UI_Automation_Task/Page Object Model/DeyDemPOM">
+        <classes><class name="Signin.SigninTests">
+            <methods><include name="testACompanyLogo"/>
+                <include name="testAForgotPassword"/>
+                <include name="testAPageTitle"/></methods>
+        </class><class name="setup.setupTests"><methods>
+            <include name="testSetUp"/></methods></class>
+        </classes></test></suite>
